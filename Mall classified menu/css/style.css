@@ -1,0 +1,256 @@
+.clear
+{
+	clear:both;
+}
+
+body
+{
+	font-family:font-family: "Microsoft YaHei";, sans-serif;
+}
+
+.box
+{
+	margin-left: 150px;
+	margin-top:50px;
+	width:190px;
+}
+
+.box p
+{
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: 16px;
+}
+
+.allbtn
+{	
+	position:relative;
+}
+
+.allbtn h2  a,.allbtn h3 a
+{
+	font-size:15px;
+}
+
+.allbtn a,.allbtn dt
+{
+	color:#fff;
+}
+
+.allbtn h2
+{
+	height:33px;
+	background-color:#358000;
+	line-height:33px;
+	padding-left:10px;
+}
+
+.allbtn h3
+{
+	height:33px;
+	background-color:#559B0D;
+	line-height:33px;
+	padding-left:10px;
+}
+
+.allbtn h3 span 
+{
+	float:left;
+	height:25px;
+	width: 25px;
+	margin-top: 4px;
+}
+
+.allbtn .btn1 h3 span
+{
+	background: url(../images/spring.png) 0 0 no-repeat;
+} 
+
+.allbtn .btn2 h3 span
+{
+	background: url(../images/spring.png) -26px 0 no-repeat;
+} 
+
+.allbtn .btn3 h3 span
+{
+	background: url(../images/spring.png) -52px 0 no-repeat;
+} 
+
+.allbtn .btn4 h3 span
+{
+	background: url(../images/spring.png) -78px 0 no-repeat;
+} 
+
+.allbtn h3 a
+{
+	margin-left: 15px;
+}
+
+.allbtn div
+{
+	background-color:#60A411;
+	width: 100%;
+	float:left;
+}
+
+.allbtn div dl dt
+{
+	width:30px;
+	float:left;
+	margin-left:10px;
+	padding: 2px 0px;
+}
+
+.allbtn div dl dd
+{
+	width: 125px;
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+	padding: 2px 0px;
+}
+
+.allbtn div dl dd a
+{
+	padding: 0px 3px;
+}
+
+/*-----一级菜单显示隐藏-------*/
+
+.allbtn ul
+{
+	display: none;
+}
+
+.allbtn:hover ul
+{
+	display: block;
+}
+
+/*-----一级菜单hover-------*/
+
+.allbtn ul li:hover h3
+{
+	background-color:#eee;
+}
+
+.allbtn ul li:hover h3 a
+{
+	color:#444;
+}
+
+.allbtn ul li:hover h3 span 
+{
+	background-position:0 -25px;
+}
+
+.allbtn ul li:hover div
+{
+	background-color:#fff;	
+}
+
+.allbtn ul li:hover div dl dt
+{
+	color:#444;	
+}
+
+.allbtn ul li:hover div dl dd a
+{
+	color:#444;	
+}
+
+.allbtn ul li:hover div dl dd a:hover
+{
+	color:red;
+	text-decoration:underline;
+}
+
+/*------二级菜单-------*/
+
+.allbtn .level2
+{
+	width:700px;
+	height:480px;
+	padding-top: 10px;
+	display:none;
+	position:absolute;
+	top: 35px;
+	left:190px;
+	background-color: #fff;
+	border-right: 3px solid #358000;
+	border-bottom: 3px solid #358000;
+	box-shadow:4px 4px 6px #666;
+}
+
+.allbtn .level2 dl
+{
+	margin-left: 30px;
+	margin-right: 30px;
+	float:left;
+}
+
+.allbtn .level2 dl:hover
+{
+	background-color: #eee;
+}
+
+.allbtn .level2 dl a,.allbtn .level2 dl dt
+{
+	color:#444;
+}
+
+.allbtn .level2 dl dt
+{
+	width:75px;
+	padding: 6px 0px;
+} 
+
+.allbtn .level2 dl dd
+{
+	width: 530px;
+	padding: 6px 0px;
+}
+
+.allbtn .level2 dl dd a
+{
+	padding-right:22px; 
+}
+
+.allbtn .level2 dl dd a:hover
+{
+	color:red;
+	text-decoration:underline;
+}
+
+.allbtn .level2 span
+{
+	height:80px;
+	width:640px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.allbtn .btn1 .level2 span
+{
+	background:url(../images/01.jpg);
+}
+
+.allbtn .btn2 .level2 span
+{
+	background:url(../images/02.jpg);
+}
+
+.allbtn .btn3 .level2 span
+{
+	background:url(../images/03.jpg);
+}
+
+.allbtn .btn4 .level2 span
+{
+	background:url(../images/04.jpg);
+}
+/*控制二级菜单显示*/
+.allbtn ul li:hover .level2
+{
+	display:block;
+}
