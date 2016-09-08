@@ -1,0 +1,467 @@
+body{
+    font-family:"Microsoft Yahei",sans-serif;
+}
+
+.main-wrapper
+{
+    background:#444 url("../img/banner.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center center;
+}
+
+header
+{
+    background: rgba(0,0,0,0.2);
+}
+
+#nav
+{
+    background:transparent;
+    height:50px;
+}
+
+#banner
+{
+    background:transparent;
+    height:700px;
+    color:#fff;
+}
+
+#nav ul
+{
+    float:right;
+    list-style:none;
+    margin:0;
+}
+
+#nav ul li,.logo a
+{
+    display:inline-block;
+    line-height:50px;
+    margin:0px 18px 0px 2px;
+
+}
+
+#nav ul li a
+{
+    line-height: inherit;
+    text-decoration:none;
+    display:inline-block;
+    height:inherit;
+    color:#fff;
+}
+
+.logo a
+{
+    float: left;
+    text-decoration: none;
+    color:#fff;
+    font-size:20px;
+    font-weight:700;
+}
+
+#banner .inner
+{
+    width:350px;
+    margin:0 auto;
+    text-align:center;
+    position:relative;
+    top:150px;
+}
+
+#banner .inner h2
+{
+    width:150px;
+    margin:0 auto;
+    padding:20px 0px;
+    border-top:1px solid #fff;
+    border-bottom:1px solid #fff;
+    letter-spacing: .2em;
+}
+
+#banner .inner .inner_text
+{
+    margin:30px 0px;
+    line-height:30px;
+}
+
+button
+{
+    color:#fff;
+    background-color:#e2363a;
+    font-weight:bold;
+    letter-spacing: .2em;
+    border:none;
+    margin:30px;
+    padding:14px 50px;
+}
+
+#banner .more p
+{
+    margin-top:150px;
+}
+
+#sectionOne
+{
+    height:450px;
+    background-color:#2fc2a6;
+}
+
+#sectionOne .con_title
+{
+    color:#fff;
+    text-align:center;
+    padding-top:90px;
+}
+
+#sectionOne .con_title h2
+{
+    margin:0;
+    padding-bottom:10px;
+}
+
+#sectionOne .con_title h3
+{
+    border-bottom: 1.5px solid #049478;
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+#sectionOne .con_icon ul
+{
+    width:500px;
+    margin:0 auto;
+    text-align: center;
+    list-style:none;
+    padding:50px 0px 0px 0px;
+}
+
+#sectionOne .con_icon ul li
+{
+    display:inline-block;
+    height:60px;
+    width:60px;
+    border:1.5px solid #049478;
+    margin:0px 25px;
+    transform:rotate(45deg);
+}
+
+#sectionTwo
+{
+    color:#fff;
+}
+
+.article_one
+{
+    height:360px;
+    background-color:#2b323c;
+}
+
+.article_one img
+{
+    display:block;
+    height:inherit;
+    float:left;
+}
+
+.article_one .text
+{
+    width:600px;
+    float:left;
+    margin: 105px 50px;
+}
+
+.article_one .text h3
+{
+    margin:0;
+    letter-spacing:.2em;
+}
+
+.article_one .text h4
+{
+    margin:10px 0px 30px 0px;
+    letter-spacing:.2em;
+}
+
+.article_two
+{
+    clear:both;
+    height:360px;
+    background-color:#21262d;
+}
+
+.article_two img
+{
+    display:block;
+    height:inherit;
+    float:right;
+}
+
+.article_two .text
+{
+    width:600px;
+    float:left;
+    margin:105px 90px;
+}
+
+.article_two .text h3
+{
+    margin:0;
+    letter-spacing:.2em;
+}
+
+.article_two .text h4
+{
+    margin:10px 0px 30px 0px;
+    letter-spacing:.2em;
+}
+
+.article_three
+{
+    height:360px;
+    background-color:#2b323c;
+}
+
+.article_three img
+{
+    display:inline-block;
+    height:inherit;
+    float:left;
+}
+
+.article_three .text
+{
+    width:600px;
+    float:left;
+    margin:105px 50px;
+}
+
+.article_three .text h3
+{
+    margin:0;
+    letter-spacing:.2em;
+}
+
+.article_three .text h4
+{
+    margin:10px 0px 30px 0px;
+    letter-spacing:.2em;
+}
+
+#sectionThree
+{
+    color:#fff;
+    background-color:#534e93;
+    height:1200px;
+}
+
+.wrapper
+{
+    width:1080px;
+    margin:0 auto;
+    padding:50px;
+}
+
+.header-wrapper
+{
+    text-align:center;
+}
+
+.header-wrapper h3
+{
+    padding-bottom:20px;
+    width:70px;
+    margin:0 auto;
+    border-bottom:1.5px solid #35316d;
+}
+
+.cardgroup
+{
+    padding-top: 50px;
+}
+
+.card
+{
+    width:50%;
+    height:300px;
+    float: left;
+}
+
+.card h4
+{
+    margin:0;
+    padding:90px 30px 20px 90px;
+}
+
+.card p
+{
+    padding:0px  90px;
+    margin:0;
+}
+
+.card:first-child
+{
+    background: rgba(0,0,0,0.1);
+}
+
+.card:nth-child(2)
+{
+    background:rgba(0,0,0,0.15)
+}
+
+.card:nth-child(3)
+{
+    clear:both;
+    background:rgba(0,0,0,0.2)
+}
+
+.card:nth-child(4)
+{
+    background:rgba(0,0,0,0.25)
+}
+
+.card:nth-child(5)
+{
+    clear:both;
+    background:rgba(0,0,0,0.3)
+}
+
+.card:nth-child(6)
+{
+    background:rgba(0,0,0,0.4)
+}
+
+/*footer 部分*/
+.reward
+{
+    height:300px;
+    background: rgba(0,0,0,0.2);
+}
+
+.whole
+{
+    width:800px;
+    height:140px;
+    margin:0 auto;
+    padding-top:100px;
+}
+
+.reward-left,.reward-right
+{
+    width:50%;
+    float:left;
+    color:#fff;
+}
+
+.reward-left h3
+{
+    margin:0px 0px 30px 0px;
+}
+
+.reward-left p
+{
+    line-height:30px;
+}
+
+.reward-right .button
+{
+    margin-bottom: 20px;
+    margin-left: 120px;
+    padding:15px 0px;
+    text-align: center;
+}
+
+.reward-right .button:first-child
+{
+    background:#e2363a;
+}
+
+.reward-right .button:last-child
+{
+    border: 1px solid #fff;
+}
+
+.callme
+{
+    height:200px;
+    background:rgba(0,0,0,0.9);
+    color:#fff;
+}
+
+.footer-icon
+{
+    width:1080px;
+    margin:0 auto;
+}
+
+.footer-icon ul
+{
+    text-align: center;
+    margin:0;
+    padding:60px 0px 50px 0px;
+}
+
+.footer-icon ul li
+{
+    margin:10px 10px 0px 10px;
+    display:inline-block;
+}
+
+.callme p
+{
+    text-align: center;
+}
+
+.mask
+{
+    display:none;
+    background: rgba(0,0,0,0.4);
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+#sidebar
+{
+    width:300px;
+    height:100%;
+    background: #444;
+    position:fixed;
+    top:0;
+    bottom:0;
+    right:-300px;
+    transition:0.5s;
+}
+
+#sidebar ul
+{
+    margin:0;
+    padding:10px 0px 0px 0px;
+    list-style: none;
+}
+
+#sidebar ul li
+{
+    line-height:2;
+    margin:0;
+}
+
+#sidebar ul li a
+{
+    text-decoration: none;
+    width:100%;
+    color:#fff;
+    padding:2px 30px;
+    display:inline-block;
+}
+
+#sidebar ul li a:hover
+{
+    background: #888;
+}
+
