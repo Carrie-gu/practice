@@ -106,7 +106,6 @@
 
 			$(".num li").first().addClass("on");
 
-
 			//Automatic carousel
 			var auto = setInterval(function () {
 				i++;
@@ -144,20 +143,18 @@
 			})
 			
 			//Move event
-			function move() {
-				
+			function move() {			
 				if (i == size) {
 					$(".pic").css({left: 0 });
 					i = 1;
 				}
 
-				if (i == -1) {
-					$(".pic").css({left: -(size - 1) * 730});
-					i = size - 2;
-				}
+				// if (i == -1) {
+				// 	$(".pic").css({left: -(size - 1) * 730});
+				// 	i = size - 2;
+				// }
 
 				$(".pic").stop().animate({left: -i * 730 },500);
-
 
 				if (i == size - 1) {
 					$(".num li").eq(0).addClass("on").siblings().removeClass("on");

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>浏览器展示页面</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">现代博物馆</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#top">综述</a></li>
+                    <li><a href="#threeColumn">简述</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            特点
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#chrome">chrome</a></li>
+                            <li><a href="#safari">safari</a></li>
+                            <li><a href="#firefox">firefox</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" data-toggle="modal" data-target=".modal">关于</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="images/chrome-big.jpg" alt="chrome">
+                    <div class="carousel-caption">
+                        <h1>chrome</h1>
+                        <p>Google浏览器，是一个由Google（谷歌）公司开发的网页浏览器</p>
+                        <button class="btn btn-primary">点我下载</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/safari-big.jpg" alt="safari">
+                    <div class="carousel-caption">
+                        <h1>safari</h1>
+                        <p>拥有快捷安全的浏览器是智能手机的标志属性</p>
+                        <button class="btn btn-primary">点我下载</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/firefox-big.jpg" alt="firefox">
+                    <div class="carousel-caption">
+                        <h1>firefox</h1>
+                        <p>firefox是一个自由及开放源代码网页浏览器</p>
+                        <button class="btn btn-primary">点我下载</button>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">上一页</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">下一页</span>
+            </a>
+        </div>
+        <div class="container">
+            <div class="row" id="threeColumn">
+                <div class="col-md-4">
+                    <img src="images/chrome-logo-small.jpg" alt="chrome" />
+                    <h1>chrome</h1>
+                    <p>一个由Google（谷歌）公司开发的网页浏览器</p>
+                    <button class="btn btn-default">点我下载</button>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/safari-logo-small.jpg" alt="safari" />
+                    <h1>safari</h1>
+                    <p>拥有快捷安全的浏览器是智能手机的标志属性</p>
+                    <button class="btn btn-default">点我下载</button>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/firefox-logo-small.jpg" alt="firefox" />
+                    <h1>firefox</h1>
+                    <p>firefox是一个自由及开放源代码网页浏览器</p>
+                    <button class="btn btn-default">点我下载</button>
+                </div>
+            </div>
+            <hr class="divider">
+            <div class="tabs" id="tab-list">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#chrome" aria-controls="chrome" role="tab" data-toggle="tab">chrome</a></li>
+                    <li role="presentation"><a href="#safari" aria-controls="safari" role="tab" data-toggle="tab">safari</a></li>
+                    <li role="presentation"><a href="#firefox" aria-controls="firefox" role="tab" data-toggle="tab">firefox</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="chrome">
+                        <div class="row info-text">
+                            <div class="col-md-5">
+                                <img src="images/chrome-logo.jpg" alt="chrome" />
+                            </div>
+                            <div class="col-md-7">
+                                <h1>chrome<small>首选浏览器</small></h1>
+                                <p>一个由Google（谷歌）公司开发的网页浏览器,一个由Google（谷歌）公司开发的网页浏览器,
+                                    一个由Google（谷歌）公司开发的网页浏览器,一个由Google（谷歌）公司开发的网页浏览器,
+                                    一个由Google（谷歌）公司开发的网页浏览器,</p>
+                                <button class="btn btn-default">点我下载</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="safari">
+                        <div class="row info-text">
+                            <div class="col-md-7">
+                                <h1>safari<small>首选浏览器</small></h1>
+                                <p>拥有快捷安全的浏览器是智能手机的标志属性,拥有快捷安全的浏览器是智能手机的标志属性,
+                                    拥有快捷安全的浏览器是智能手机的标志属性,拥有快捷安全的浏览器是智能手机的标志属性,
+                                    拥有快捷安全的浏览器是智能手机的标志属性,</p>
+                                <button class="btn btn-default">点我下载 </button>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="images/safari-logo.jpg" alt="safari" />
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="firefox">
+                        <div class="row info-text">
+                            <div class="col-md-5">
+                                <img src="images/firefox-logo.jpg" alt="firefox" />
+                            </div>
+                            <div class="col-md-7">
+                                <h1>firefox<small>首选浏览器</small></h1>
+                                <p>firefox是一个自由及开放源代码网页浏览器,firefox是一个自由及开放源代码网页浏览器,
+                                    firefox是一个自由及开放源代码网页浏览器,firefox是一个自由及开放源代码网页浏览器,
+                                    firefox是一个自由及开放源代码网页浏览器,</p>
+                                <button class="btn btn-default">点我下载</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div>
+                <footer>
+                    <p class="pull-right"><a href="#top">返回顶部</a></p>
+                    <p>@ 2014慕课网</p>
+                </footer>
+            </div>
+        </div>
+
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">关于</h4>
+                </div>
+                <div class="modal-body">
+                    <p>以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。
+                        在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">了解了</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#bs-example-navbar-collapse-1 .dropdown-menu a").click(function(){
+                var href=$(this).attr("href");
+
+                $("#tab-list a[href='"+href+"']").tab("show");
+            });
+        });
+    </script>
+    </body>
+</html>
